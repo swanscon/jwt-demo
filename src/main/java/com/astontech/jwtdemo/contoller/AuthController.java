@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class AuthController {
-    //Test commit
+
     private static final Logger log = LoggerFactory.getLogger(AuthController.class);
 
     private final TokenService tokenService;
